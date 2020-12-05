@@ -1,5 +1,10 @@
 # rtnutil
 
+![Test](https://github.com/schultz-is/rtnutil/workflows/Test/badge.svg)
+[![GoDoc](https://godoc.org/github.com/schultz-is/rtnutil?status.svg)](https://pkg.go.dev/github.com/schultz-is/rtnutil)
+[![Go Report Card](https://goreportcard.com/badge/github.com/schultz-is/rtnutil)](https://goreportcard.com/report/github.com/schultz-is/rtnutil)
+[![License](https://img.shields.io/github/license/schultz-is/rtnutil)](./LICENSE)
+
 This package provides utilities for working with American Bankers Association
 routing transit numbers; also known as ABA RTNs.
 
@@ -13,7 +18,7 @@ found on the relevant Wikipedia page[^1].
 To install as a dependency in a go project:
 
 ```console
-go get github.com/schultz-is/go-threefish
+go get github.com/schultz-is/rtnutil
 ```
 
 ## Usage
